@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         // Задача №1
         //Объявите переменные типа int, byte, short, long, float, double.
         //Название переменных может быть любым, но если состоит из двух слов и более, должно соответствовать правилу camelCase.
@@ -18,15 +17,15 @@ public class Main {
         System.out.println("Значение перемемнной 'valFloat' с типом 'float' равно " + valFloat);
         System.out.println("Значение перемемнной 'valDouble' с типом 'double' равно " + valDouble);
 
-        // Задача №2
+        //Задача №2
         // Ниже дан список различных значений. Инициализируйте переменные, используйте изученные ранее типы переменных.
-        float a = 27.12f;
-        long b = 987678965549L;
-        float c = 2.786f;
-        short d = 569;
-        int e = -159;
-        short f = 27897;
-        byte j = 67;
+        float oneVariable = 27.12f;
+        long twoVariable = 987678965549L;
+        float threeVariable = 2.786f;
+        short fouVariable = 569;
+        int fiveVariable = -159;
+        short sixVariable = 27897;
+        byte sevenVariable = 67;
 
         // Задача №3
         //Три школьных учителя, Людмила Павловна, Анна Сергеевна и Екатерина Андреевна, ведут три класса.
