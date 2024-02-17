@@ -120,6 +120,10 @@ public class Main {
         //приведем значения веса к граммам: в 1 киллограмме - 1000 грамм
         int totalDaysMin = sportsmanWeightLine * 1000 / loseDayWeightMin;
         int totalDaysMax = sportsmanWeightLine * 1000 / loseDayWeightMax;
+        int midWeight = (loseDayWeightMax+loseDayWeightMin)/2;
+        int totalMidDays = sportsmanWeightLine * 1000 / midWeight;
+        int midDays = (totalDaysMax + totalDaysMin) / 2;
+        System.out.println("В среднем " + totalMidDays + " дней");
         System.out.println("Для сброса " + sportsmanWeightLine + " киллограмм, при потере веса " + loseDayWeightMin + " грамм в день, потребуется " + totalDaysMin + " дней");
         System.out.println("Для сброса " + sportsmanWeightLine + " киллограмм, при потере веса " + loseDayWeightMax + " грамм в день, потребуется " + totalDaysMax + " дней");
 
